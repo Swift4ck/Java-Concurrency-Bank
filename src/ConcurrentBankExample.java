@@ -22,5 +22,6 @@ public class ConcurrentBankExample {
 
         // Вывод общего баланса
         System.out.println("Total balance: " + bank.getTotalBalance());
+        System.out.println(account1.getId() + " " + account2.getId());
     }
 }
